@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*
+.contenedorMain {
+    display: flex;
+    background-color: #F0F2F5;
+    flex-direction: row;
+  }
+  
+*/
+
+@media (max-width: 700px) {
+    .ContenedorPrincipal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    }
+  
+.ContenedorPrincipal{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40rem; 
+    flex-direction: center;
+   align-items: center;
+
+}
+.contenido{
+    width: 40%;
+}
+img{
+    width: 70%;
+    
+}
+.titulo{
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.contenedor_formulario{
+border-style: none;
+border: None;
+-webkit-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.75);
+display: flex;
+background-color: white;
+flex-direction: column;
+border-radius: 5%;
+height: 20rem;
+width: 20rem;
+
+}
+.titulo{
+    font-size: 2rem;
+}
+
+.correo,.contraseña{
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 14 16;
+    font-size: 17px;
+    width: 364px;
+    border-radius: 3%;
+    border-width: 1px;
+    border-color: bisque;
+}
+.boton{
+    border: None;
+    background: #1877f2;
+    padding: 0,2rem;
+    color: white;
+    border-radius: 5%;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    font: 20px Heveltica, Arial, sans-serif ;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.enlace{
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.linea{
+    border-bottom: 1px solid #dadde1;
+}
+.cuentaN{
+    border-style: none;
+    background-color: #42B72A;
+    color:white;
+    border-radius: 5%;
+    height: 3rem ;
+    font-size: 1rem;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ContenedorBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.cuentaN:hover{
+    
+    background-color: #37A620;
+    transition: .5seconds;
+
+}
